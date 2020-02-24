@@ -68,6 +68,9 @@ Toda aquella personas que posea dinero plástico ya que una billetera electróni
 
 ### 2.4 Imagen del primer prototipo
 
+![Captura de Pantalla 2020-02-10 a la(s) 19 49 16](https://user-images.githubusercontent.com/55680887/75166671-33d6a200-56f2-11ea-8a9f-01709aa356ba.png)
+
+
 ![Primer_prototipo](https://user-images.githubusercontent.com/55680887/75164626-118f5500-56ef-11ea-96e5-334532c5899b.jpeg)
 
 
