@@ -25,9 +25,9 @@
 
 ### 1.3 Imagen final del proyecto.
 
-img 1
-img 2
-img 3
+![](assets/header.png)
+![](assets/main.png)
+![](assets/footer.png)
 
 
 
@@ -63,7 +63,7 @@ Toda aquella personas que posea dinero plástico ya que una billetera electróni
 
 ### 2.4 Imagen del primer prototipo
 
-        img
+        ![](assets/Primer_prototipo.jpeg)
 
 
 ### 2.5 Resúmen del feedback obtenido-mejoras a realizar
