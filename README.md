@@ -30,7 +30,7 @@ HEADER
 
 MAIN
 
-       ![main](https://user-images.githubusercontent.com/55680887/75173796-70f46180-56fd-11ea-99e3-db18c142ca28.png)
+       ![main](https://user-images.githubusercontent.com/55680887/75193138-a318ba00-5723-11ea-8ae8-640fb3c574e7.png)
 
 FOOTER
       ![footer](https://user-images.githubusercontent.com/55680887/75161442-d2aad080-56e9-11ea-910e-834f18dc993c.png)
