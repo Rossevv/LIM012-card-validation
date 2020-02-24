@@ -27,15 +27,19 @@
 ### *1.3 Imágen final del proyecto.*
 
 **HEADER**
-        <img src='![header](https://user-images.githubusercontent.com/55680887/75159928-1fd97300-56e7-11ea-8152-41bf219f159f.png)' width='800' height='200'> 
+       ![header](https://user-images.githubusercontent.com/55680887/75199651-9f8c2f80-5731-11ea-8359-0f2a3602a1c5.png)
 
 **MAIN**
 
-         ![main](https://user-images.githubusercontent.com/55680887/75193138-a318ba00-5723-11ea-8ae8-640fb3c574e7.png) 
-
+![main](https://user-images.githubusercontent.com/55680887/75199160-4e2f7080-5730-11ea-9a35-cb4d78307801.png)
 
 **FOOTER**
-      ![footer](https://user-images.githubusercontent.com/55680887/75161442-d2aad080-56e9-11ea-910e-834f18dc993c.png)
+      
+![footer](https://user-images.githubusercontent.com/55680887/75199670-ae72e200-5731-11ea-9e25-a7607afde673.png)
+
+
+
+
 
 
 ## **2. Investigación UX**
