@@ -25,10 +25,15 @@
 
 ### 1.3 Imagen final del proyecto.
 
-![](assets/header.png)
-![](assets/main.png)
-![](assets/footer.png)
+HEADER
+        ![header](https://user-images.githubusercontent.com/55680887/75159928-1fd97300-56e7-11ea-8152-41bf219f159f.png)
 
+MAIN
+
+        ![main](https://user-images.githubusercontent.com/55680887/75160015-50b9a800-56e7-11ea-9e97-ad8097ff047e.png)
+
+FOOTER
+      ![footer](https://user-images.githubusercontent.com/55680887/75161442-d2aad080-56e9-11ea-910e-834f18dc993c.png)
 
 
 ## 2. Investigación UX:
@@ -63,7 +68,7 @@ Toda aquella personas que posea dinero plástico ya que una billetera electróni
 
 ### 2.4 Imagen del primer prototipo
 
-        ![](assets/Primer_prototipo.jpeg)
+![Primer_prototipo](https://user-images.githubusercontent.com/55680887/75164626-118f5500-56ef-11ea-96e5-334532c5899b.jpeg)
 
 
 ### 2.5 Resúmen del feedback obtenido-mejoras a realizar
@@ -79,6 +84,7 @@ Finalmente realicé las mejoras correspondientes, cambié los colores, ajusté m
 ### 2.5 Imágen del prototipo final
 
 
+![Captura de Pantalla 2020-02-24 a la(s) 10 39 56](https://user-images.githubusercontent.com/55680887/75166630-1dc8e180-56f2-11ea-977b-646778eae7e1.png)
 
 
 
