@@ -1,7 +1,6 @@
 # Tarjeta de crédito válida
 
 ## Índice
-
 * [1. Definición del producto](#1-Definición del producto)
 * [1.1 Título con el nombre de tu proyect](#1.1-Título con el nombre de tu proyecto)
 * [1.2 Resumen del proyecto](#1.2-UX Resumen del proyecto)
