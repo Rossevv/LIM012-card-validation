@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'dosis';
-    background-color:  hsla(69, 74%, 77%, 0.055)
+    background-color:  hsla(70, 32%, 77%, 0.055)
 
 }
 .titulo{
@@ -35,6 +35,7 @@ nav > a{
     font-weight: 900; /*mas ligero el blanco con el tamaño dela fuente */
     text-decoration: none;/*le quitará el subrayado de la parte de abajo */
     margin-right: 10px;/*separa uno del otro */
+    font-size: 20px;
 }
 nav > a:hover{
     text-decoration: underline;
@@ -49,7 +50,7 @@ header.text-header{
     text-align: center;
 }
 .text-header > h1 {
-    font-size: 60px;
+    font-size: 90px;
     color: #fff;
     margin-left: 10px;
 }
@@ -57,13 +58,13 @@ header.text-header{
     font-size: 40px;
     font-weight: 300;
     color: #fff;
-    margin-left: 75px;
+    margin-left: 160px;
 }
 .text-header > h3{
     font-size: 40px;
     font-weight: 300;
     color: #fff;
-    margin-left: 140px;
+    margin-left: 250px;
 }
 .wave{
     position: absolute;
@@ -237,7 +238,7 @@ button:hover{
     text-align: center;
 }
 .images-alone img{
-    width: 50%;
+    width: 70%;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     padding: 15px;
 }
@@ -286,8 +287,8 @@ footer{
     font-size: 10px;
     color: #9e9797;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
