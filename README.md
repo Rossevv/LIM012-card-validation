@@ -31,11 +31,7 @@
 
 **MAIN**
 
-<<<<<<< HEAD
 ![main](https://user-images.githubusercontent.com/55680887/75199160-4e2f7080-5730-11ea-9a35-cb4d78307801.png)
-=======
-       ![main](https://user-images.githubusercontent.com/55680887/75193138-a318ba00-5723-11ea-8ae8-640fb3c574e7.png)
->>>>>>> c3fe68fcc4919f9357af29d19cfd847542512e41
 
 **FOOTER**
       
