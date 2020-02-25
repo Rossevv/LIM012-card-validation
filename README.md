@@ -28,15 +28,16 @@
 ### *1.3 Imágen final del proyecto.*
 
 **HEADER**
+Toda la estructura es visual.
       
 <img src="https://user-images.githubusercontent.com/55680887/75208835-b8550f00-574a-11ea-9b4e-a0d8ba29f5f6.png" width="750" height="190">
 
 **MAIN**
-
-<img src="https://user-images.githubusercontent.com/55680887/75211104-f6553180-5750-11ea-976f-316de618134f.png" width="750" height="500">
+Toda la interfaz puede validar el input principal, es decir el número de tarjeta de crédito.
+<img src="https://user-images.githubusercontent.com/55680887/75211549-408ae280-5752-11ea-8b21-ebecf300fb0a.png" width="750" height="500">
 
 **FOOTER**
-      
+Se puede obervar el ícono de GITHUB en el footer, el cual es el único con funcionalidad ya que referencia a mi cuenta github donde se encuentra el proyecto.
 <img src="https://user-images.githubusercontent.com/55680887/75209326-da9b5c80-574b-11ea-932e-bde2bdddb41a.png" width="750" heigth="290">
 
 ## **2. Investigación UX**
