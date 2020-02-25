@@ -3,11 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     outline: none; /*borra los defectos de escritura o cursor coin borde axul en el recuadro*/
-}
-body{
     font-family: 'dosis';
     background-color:  hsla(70, 32%, 77%, 0.055)
-
 }
 .titulo{
     color: #10637c;

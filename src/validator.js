@@ -19,9 +19,9 @@ const validator = {
       }
     }
     if (totalSum % 10 === 0){
-      finalResult = 'Válido';
+      finalResult = true;
     } else {
-      finalResult = 'Inválido';
+      finalResult = false;
     }
     return (finalResult);
 },
