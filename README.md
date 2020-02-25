@@ -16,6 +16,7 @@
 
 ***
 ## **1. Definición del producto.**
+---------------------------------------
 ### *1.1 Título con el nombre del proyecto.*
 
       "E-WALLET EVERYWHERE"
@@ -27,22 +28,19 @@
 ### *1.3 Imágen final del proyecto.*
 
 **HEADER**
-       ![header](https://user-images.githubusercontent.com/55680887/75199651-9f8c2f80-5731-11ea-8359-0f2a3602a1c5.png)
+      
+<img src="https://user-images.githubusercontent.com/55680887/75199651-9f8c2f80-5731-11ea-8359-0f2a3602a1c5.png" width="800" height="190">
 
 **MAIN**
 
-![main](https://user-images.githubusercontent.com/55680887/75199160-4e2f7080-5730-11ea-9a35-cb4d78307801.png)
+<img src="https://user-images.githubusercontent.com/55680887/75199160-4e2f7080-5730-11ea-9a35-cb4d78307801.png" width="800" height="600">
 
 **FOOTER**
       
-![footer](https://user-images.githubusercontent.com/55680887/75199670-ae72e200-5731-11ea-9e25-a7607afde673.png)
-
-
-
-
-
+<img src="https://user-images.githubusercontent.com/55680887/75199670-ae72e200-5731-11ea-9e25-a7607afde673.png" width="800" heigth="290">
 
 ## **2. Investigación UX**
+-------------------------------------
 * Se ha considerado que los consumidores sean aquellas personas, consumidores en general que posean una tarjeta de crédito o débito.
 * Según estadísticas el número de usuarios de billetera móvil crece en 140 millones por año.
 * Además para 2022, el efectivo representará sólo el 17% de los pagos globales.
@@ -66,10 +64,12 @@
 
 ### *2.4 Imágen del primer prototipo*
 *En la etapa inicial del primer sprint tenía la idea de hacer una tienda de contenidos, el cuál tendría el siguiente diseño, sin embargo este fue cambiado a lo que es hoy un E-WALLET EVERYWHERE, cuyo uso es mucho más general que solo comprar contenido virtual.
+
 ![Captura de Pantalla 2020-02-10 a la(s) 19 49 16](https://user-images.githubusercontent.com/55680887/75166671-33d6a200-56f2-11ea-8a9f-01709aa356ba.png)
 
-*El siguiente prototipo muestra la idea inicial del E-WALLET EVERYWHERE, fue de mucha ayuda para establecer los posibles requerimientos del público objetivo.   
-![Primer_prototipo](https://user-images.githubusercontent.com/55680887/75164626-118f5500-56ef-11ea-96e5-334532c5899b.jpeg)
+*El siguiente prototipo muestra la idea inicial del E-WALLET EVERYWHERE, fue de mucha ayuda para establecer los posibles requerimientos del público objetivo.  
+
+<img src="https://user-images.githubusercontent.com/55680887/75164626-118f5500-56ef-11ea-96e5-334532c5899b.jpeg" width="500" height="600">
 
 
 ### *2.5 Feedback obtenido-mejoras a realizar*
@@ -82,10 +82,10 @@
 
 ### *2.6 Imágen del prototipo final*
 
-![Captura de Pantalla 2020-02-24 a la(s) 10 39 56](https://user-images.githubusercontent.com/55680887/75166630-1dc8e180-56f2-11ea-977b-646778eae7e1.png)
+<img src="https://user-images.githubusercontent.com/55680887/75166630-1dc8e180-56f2-11ea-977b-646778eae7e1.png" width="580" height="340">
 
 ## **3. Interfaz de usuario-UI**
-
+----------------------------------------
 *La interfaz permite al usuario insertar el número que desea validar. Así como ver el resultado si es válido o no, pintándose el contenedor de la respuesta de color rojo si es inválido o amarillo si es válido. Así mismo permite ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres cuando nos dice si es válida o no. Finalmente la parte de la interfaz de usuario también no poder ingresar un campo vacío en el input.
 
  
