@@ -19,7 +19,7 @@ header{
     background: hsla(50, 77%, 59%, 0.685);  
     background: linear-gradient(to right, hsla(0, 0%, 92%, 0.699), hsla(170, 51%, 56%, 0.596), hsla(266, 43%, 80%, 0.74), hsla(50, 53%, 66%, 0.829)), url(./assets/header.jpg); 
     background-size: cover; 
-    background-attachment: fixed; 
+    background-attachment: fixed; /*imágen del background no es estática*/
     position: relative;
 }
 nav{
