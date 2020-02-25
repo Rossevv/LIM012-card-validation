@@ -9,8 +9,6 @@ document.getElementById('expirationDate').value = expiDate
         .replace(/\s/g, '/')
 });
 
-
-
 let inputNumber = document.getElementById('cardNumber');
     inputNumber.addEventListener('keyup',(e) =>{
     let prueba = e.target.value;
@@ -51,7 +49,6 @@ document.getElementById('addOther').addEventListener('click', () => {
             }else{
                 numPos.classList.remove('by');
             }
-
 })
 
 document.getElementById('finalizar').addEventListener('click', () => {

@@ -40,6 +40,11 @@ Toda la interfaz puede validar el input principal, es decir el número de tarjet
 Se puede obervar el ícono de GITHUB en el footer, el cual es el único con funcionalidad ya que referencia a mi cuenta github donde se encuentra el proyecto.
 <img src="https://user-images.githubusercontent.com/55680887/75209326-da9b5c80-574b-11ea-932e-bde2bdddb41a.png" width="750" heigth="290">
 
+Cabe resaltar que el proyecto final permite al usuario interactuar de la siguiente manera:
+
+<img src="https://user-images.githubusercontent.com/55680887/75265126-706fcf80-57be-11ea-9268-5af028e685a9.png" width="750" heigth="290">
+
+
 ## **2. Investigación UX**
 -------------------------------------
 * Se ha considerado que los consumidores sean aquellas personas, consumidores en general que posean una tarjeta de crédito o débito.
