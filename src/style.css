@@ -31,7 +31,7 @@ nav{
     padding: 30px 50px 0 0;
 }
 nav > a{
-    color: rgb(248, 248, 248);
+    color: rgb(97, 94, 94);
     font-weight: 900; /*mas ligero el blanco con el tamaño dela fuente */
     text-decoration: none;/*le quitará el subrayado de la parte de abajo */
     margin-right: 10px;/*separa uno del otro */
@@ -84,9 +84,9 @@ header.text-header{
     border-left: 2px solid #9e9797;
     border-bottom: 2px solid#9e9797;
     display: flex; 
-    height: 430px;
+    height: 520px;
     padding-bottom: 10px;
-    box-shadow: 0 6px 0 0 #9e9797
+    box-shadow: 0 6px 0 0 #9e9797;
 }
 form{
     margin-top: 10px;
@@ -95,9 +95,12 @@ form{
 label{
     float: left;
     width: 300px;
+    font-size: large;
 }
 form > input{
     float: left;
+    font-size: medium;
+    background-color:  #d8d3d39d;
 }
 form > button{
     border-radius: 10px;
@@ -114,7 +117,7 @@ button:hover{
     border-top: 2px solid #9e9797;
     border-bottom: 2px solid #9e9797;
     border-right: 2px solid #9e9797;
-    height: 430px;
+    height: 520px;
     padding-left: 90px;
     padding-top: 215px;
     box-shadow: 6px 6px 0 0 #9e9797;
@@ -140,27 +143,27 @@ button:hover{
 }
 #csecurityCodeOne{
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
-.tooltip{
+#tooltip{
     cursor: pointer;
-    border: 0.5px solid #9e9797;
+    border: 0.5px solid #979292;
     width: 20px;
     text-align: center;
     border-radius: 5px;
     display: block;
+    background-color: rgb(175, 171, 171);
 }
-#csecurityCodeOne{
-    display: flex;
-    justify-content: space-between;
-}
+
 #imgCard{
     position: absolute;
     transition: all 0.3s ease;
-    margin-top: -140px;
-    margin-left: -240px;
-    display: none;
+    margin-top: -210px;
+    margin-left: -260px;
+    display: none; 
 }
-.tooltip:hover #imgCard {
+#tooltip:hover #imgCard {
     display: block;  
 }
 #cardCondition{
@@ -220,7 +223,7 @@ button:hover{
 }
 .login2 {
     margin-top: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 95px;
 }
 /* último section */
 .final-info {

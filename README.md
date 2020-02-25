@@ -29,15 +29,15 @@
 
 **HEADER**
       
-<img src="https://user-images.githubusercontent.com/55680887/75199651-9f8c2f80-5731-11ea-8359-0f2a3602a1c5.png" width="800" height="190">
+<img src="https://user-images.githubusercontent.com/55680887/75208835-b8550f00-574a-11ea-9b4e-a0d8ba29f5f6.png" width="750" height="190">
 
 **MAIN**
 
-<img src="https://user-images.githubusercontent.com/55680887/75199160-4e2f7080-5730-11ea-9a35-cb4d78307801.png" width="800" height="600">
+<img src="https://user-images.githubusercontent.com/55680887/75211104-f6553180-5750-11ea-976f-316de618134f.png" width="750" height="500">
 
 **FOOTER**
       
-<img src="https://user-images.githubusercontent.com/55680887/75199670-ae72e200-5731-11ea-9e25-a7607afde673.png" width="800" heigth="290">
+<img src="https://user-images.githubusercontent.com/55680887/75209326-da9b5c80-574b-11ea-932e-bde2bdddb41a.png" width="750" heigth="290">
 
 ## **2. Investigación UX**
 -------------------------------------
