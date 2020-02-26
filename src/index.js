@@ -26,7 +26,7 @@ let hideNumber = document.getElementById('hideNum');
     hideNumber.innerHTML = validator.maskify(inputNumber.value);
     // console.log(validator.maskify('4083952015263'))
     let numPos = document.querySelector('.numPos')
-    if(validator.isValid(inputNumber.value)==='Tarjeta inválida') {
+    if(validator.isValid(inputNumber.value)===false) {
         numPos.classList.add('br');
             }else{
         numPos.classList.add('by');
@@ -43,7 +43,7 @@ document.getElementById('addOther').addEventListener('click', () => {
     }
         finalCondition.innerHTML= "";
         hideNumber.innerHTML = "";
-        let numPos = document.querySelector('.numPos')
+        let numPos = document.querySelector('.numPos')/*retorna el primer elemento que coincide con el selector css dado como parámetro */
             if(numPos.classList.remove('br')) {
                 numPos.classList.remove('br');
             }else{
@@ -60,7 +60,7 @@ document.getElementById('finalizar').addEventListener('click', () => {
         finalCondition.innerHTML= "";
         hideNumber.innerHTML = "";
         let numPos = document.querySelector('.numPos')
-            if(numPos.classList.remove('br')) {
+            if(numPos.classList.remove('br')) { /*ACCEDERA LA LISTA DE CLASES DE UN ELEMENTO COMO UNA CADENA DE TEXTO DELIMITADA */
                 numPos.classList.remove('br');
             }else{
                 numPos.classList.remove('by');

@@ -13,6 +13,7 @@
 * [2.5 Feedback obtenido-mejoras a realizar](#2.5-Feedback-obtenido-mejoras-a-realizar)
 * [2.6 Imágen del prototipo final](#2.6-Imágen-del-prototipo-final)
 * [3. Interfaz de usuario-UI](#3-Interfaz-de-usuario-UI)
+* [4. Objetivos de aprendizaje](#-Objetivos-de-aprendizaje)
 
 ***
 ## **1. Definición del producto.**
@@ -94,9 +95,59 @@ Cabe resaltar que el proyecto final permite al usuario interactuar de la siguien
 ----------------------------------------
 *La interfaz permite al usuario insertar el número que desea validar. Así como ver el resultado si es válido o no, pintándose el contenedor de la respuesta de color rojo si es inválido o amarillo si es válido. Así mismo permite ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres cuando nos dice si es válida o no. Finalmente la parte de la interfaz de usuario también no poder ingresar un campo vacío en el input.
 
- 
+## **4. Objetivos de aprendizaje**
+------------
+**UX**
+ *1. Diseñar la aplicación pensando y entendiendo al usuario:* 
+ *Descubrimiento e investigación: Búsquedas en la web, benchmarking, investigación contextual.
+ *Síntesis y definición: Tendencias e insights valiosos, deseos y necesidades del público al que estará dirigido nuestro producto.
+ *Ideación: Brainstorming, Benchmarking (mejores maneras para ejecutar las funcionalidades)
+ *Prototipado: Baja y alta fidelidad. Figma y lapiz.
+ *User testing: Feedback de compañeras.
 
-
-
-
-
+ *2. Crear prototipos para obtener feedback e iterar*
+ *Flujo de tranbajo no bien definido, no hubo listas de contenidos necesarios a mostrar, por tanto el prototipo falló.
+ *3. Aplicar los principios de diseño visual*
+ *Contraste
+ *Casi negro
+**HTML Y CSS**
+*1. Uso correcto de HTML semántico*
+*Creo que que puedo explicarlo y entiendo su importancia y podría hacerlo desde cero sola.
+*2. Uso de selectores de CSS*
+Creo que que puedo explicarlo y entiendo su importancia y podría hacerlo desde cero sola.
+*3. Construir tu aplicación respetando el diseño realizado (maquetación).*
+Con u buen flujo definido puedo hacerlo sola.
+**DOM**
+*1. Uso de selectores de nodos del DOM*
+Creo que que puedo explicarlo y entiendo su importancia y podría hacerlo desde cero sola.
+*2. Manejo de eventos del DOM*
+Creo que que puedo explicarlo y entiendo su importancia y podría hacerlo desde cero sola.
+*3. Manipulación dinámica del DOM*
+Creo que que puedo explicarlo.
+**Javascript**
+Manipulación de strings
+*1. Uso de condicionales*
+Puedo explicarlo y entiendo su importancia.
+*2. Uso de bucles*
+Puedo explicarlo y entiendo su importancia.
+*3. Uso de funciones*
+Puedo explicarlo y entiendo su importancia.
+*4. Datos atómicos y estructurados*
+Puedo explicarlo y entiendo su importancia.
+*5. Utilizar ES Modules (import | export).*
+///
+**Testing**
+*1.Testeo de tus funciones*
+El testeo fue dificil pero logré entender a medias.
+**Git y Github**
+*1. Comandos de git (add | commit | pull | status | push).*
+Entiendo para que sirve y puedo hacerlo sola, y puedo explicarlo.
+*2. Manejo de repositorios de GitHub (clone | fork | gh-pages).*
+*Entiendo para que sirve y puedo explciarlo.
+**Buenas prácticas de desarrollo**
+*1. Organizar y dividir el código en módulos (Modularización).*
+///
+*2. Uso de identificadores descriptivos (Nomenclatura | Semántica).*
+Puedo hacerlo sola.
+*3. Uso de linter para seguir buenas prácticas (ESLINT).*
+Creo que puedo explicarlo y entender como funciona.
