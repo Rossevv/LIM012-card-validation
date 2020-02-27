@@ -1,6 +1,7 @@
 
 
 import validator from './validator.js';
+console.log('./validator.js');
 
 document.getElementById('expirationDate').addEventListener('keyup', (e) => {
         let expiDate = e.target.value;
@@ -66,10 +67,6 @@ document.getElementById('finalizar').addEventListener('click', () => {
                 numPos.classList.remove('by');
             }
 })
-
-
-
-
 
 
 console.log(validator);
