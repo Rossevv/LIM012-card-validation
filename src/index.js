@@ -6,8 +6,8 @@ let inputExpirationDate = document.getElementById('expirationDate');
 let inputNumber = document.getElementById('cardNumber');
 let finalConditionCardValidOrInvalid = document.getElementById('conditionNum');
 let cardNumberWithMaskify = document.getElementById('hideNum');
-let buttonValidateCardNumber = document.getElementById('validate')
-let buttonaAdOthercard = document.getElementById('addOther')
+let buttonValidateCardNumber = document.getElementById('validate');
+let buttonaAdOthercard = document.getElementById('addOther');
 let inputFinalProcess = document.getElementById('finalizar');
 
 
@@ -18,35 +18,10 @@ inputExpirationDate.addEventListener('keyup', (e) => {
     .replace(/\s/g, '/')
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 inputNumber.addEventListener('keyup', (e) => {
   let prueba = e.target.value;
   inputNumber.value = prueba.replace(/\D/g, '');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 buttonValidateCardNumber.addEventListener('click', (event) => {
   event.preventDefault();
@@ -62,21 +37,6 @@ buttonValidateCardNumber.addEventListener('click', (event) => {
   }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 buttonaAdOthercard.addEventListener('click', () => {
 
@@ -95,7 +55,6 @@ buttonaAdOthercard.addEventListener('click', () => {
   }
 })
 
-
 inputFinalProcess.addEventListener('click', () => {
   let inputs = document.getElementsByTagName("input");
   //console.log(inputs)
@@ -112,6 +71,5 @@ inputFinalProcess.addEventListener('click', () => {
     numPos.classList.remove('by');
   }
 })
-
 
 console.log(validator);
