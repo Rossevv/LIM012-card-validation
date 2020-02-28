@@ -3,7 +3,7 @@ import validator from '../src/validator';
 
 describe('validator', () => {
   it('debería ser un objeto', () => {
-    expect(typeof validator).toBe('object');
+    expect(typeof validator).toBe('object');/*cada vez que se desea probar un valor,,,,,función de comparación*/
   });
 
   describe('validator.isValid', () => {

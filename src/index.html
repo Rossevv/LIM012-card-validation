@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">Regístrese</a>
-        <a href="#">Contáctanos</a>
-        <a href="#">Comisiones</a>
-        <a href="#">Seguridad</a>
-        <a href="#">Comprar</a>
-      </nav>
-      <section class="text-header">
-        <h1>¿Todos los días pagos?</h1>
-        <h2>E-WALLET EVERYWHERE</h2>
-        <h3>...Hazlo simple</h3>
-      </section>
-      <div class="wave">
-        <svg viewbox="0 0 500 150" preserveaspectratio="none" style="height: 100%; width: 100%;">
-        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);">
-        </path></svg>
-      </div>
-    </header>
-    <main>
-      <h2 class="titulo">REGÍSTRESE PARA REALIZAR SUS PAGOS MÁS FÁCIL</h2>
-      <section class="login1">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">Regístrese</a>
+      <a href="#">Contáctanos</a>
+      <a href="#">Comisiones</a>
+      <a href="#">Seguridad</a>
+      <a href="#">Comprar</a>
+    </nav>
+    <section class="text-header">
+      <h1>¿Todos los días pagos?</h1>
+      <h2>E-WALLET EVERYWHERE</h2>
+      <h3>...Hazlo simple</h3>
+    </section>
+    <div class="wave">
+      <svg viewbox="0 0 500 150" preserveaspectratio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgb(255, 255, 255);">
+        </path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <h2 class="titulo">REGÍSTRESE PARA REALIZAR SUS PAGOS MÁS FÁCIL</h2>
+    <section class="login1">
       <div class="div-form">
         <form action="" class="form-login1" id="myForm">
           <label id="personNameOne" for="personName">Nombre</label>
@@ -42,58 +46,60 @@
           <label id="expirationDateOne" for="expirationDate">Fecha de expiración</label>
           <input type="text" id="expirationDate" placeholder="YY/MM"><br>
           <div id="csecurityCodeOne"><label for="securityCode"> CVC</label>
-                <div id="tooltip">?
-                  <img id="imgCard" src="./assets/cvv_card.png">
-                </div>
-          </div> 
+            <div id="tooltip">?
+              <img id="imgCard" src="./assets/cvv_card.png">
+            </div>
+          </div>
           <input type="text" id="csecurityCode" placeholder="123" maxlenght="3"><br>
-          <button id="validate" type="submit" >VALIDAR</button>
+          <button id="validate" type="submit">VALIDAR</button>
         </form>
       </div>
       <div class="div-result">
         <div class="final-result">
           <label for="validates" id="cardCondition">Condición de la tarjeta </label><br><br>
-          <div class="numPos" id="conditionNum" > </div><br>
-          <div id = "hideNum"> </div><br>
-          <button id="nextBranch" type="submit" >SIGUIENTE</button>
+          <div class="numPos" id="conditionNum"> </div><br>
+          <div id="hideNum"> </div><br>
+          <button id="nextBranch" type="submit">SIGUIENTE</button>
         </div>
       </div>
-      <button id="addOther" type="submit">AÑADIR OTRA TARJETA</button>
-      <button id="finalizar" type="submit">FINALIZAR</button>
+      <button class="buttonClearForm" id="addOther" type="submit">AÑADIR OTRA TARJETA</button>
+      <button class="buttonClearForm" id="finalizar" type="submit">FINALIZAR</button>
     </section>
     <section class="login2">
       <h2 class="titulo">INFORMACIÓN ADICIONAL</h2>
-        <div class="images-alone">
-          <div class="info-alone">
-            <img src="assets/transferMoney.png" alt="">
-            <figcaption>MÚLTIPLES OPERACIONES</figcaption>
-          </div>
-          <div class="info-alone">
-            <img src="assets/aComputer.png" alt="">
-            <figcaption>SERVICIO TÉCNICO</figcaption>
-          </div>
-          <div class="info-alone">
-            <img src="assets/authentication_namy.png" alt="40">
-            <figcaption>INTERCONEXIÓN ONLINE</figcaption>
-          </div>
+      <div class="images-alone">
+        <div class="info-alone">
+          <img src="assets/transferMoney.png" alt="">
+          <figcaption>MÚLTIPLES OPERACIONES</figcaption>
         </div>
+        <div class="info-alone">
+          <img src="assets/aComputer.png" alt="">
+          <figcaption>SERVICIO TÉCNICO</figcaption>
+        </div>
+        <div class="info-alone">
+          <img src="assets/authentication_namy.png" alt="40">
+          <figcaption>INTERCONEXIÓN ONLINE</figcaption>
+        </div>
+      </div>
     </section>
-    </main>
-    <footer>
-        <div class="content-foo">
-          <h4>Teléfono</h4>
-          <p>3845759483</p>
-          <a href="https://github.com/Rossevv/LIM012-card-validation" class="nav_link" target="blank"> <img src="./assets/git.png" alt="" id="git"> </a>
-          <h4>E-mail</h4>
-          <p>e-wallet@gmail.com</p>
-        </div>
-      <div class="final-title">
+  </main>
+  <footer>
+    <div class="content-foo">
+      <h4>Teléfono</h4>
+      <p>3845759483</p>
+      <a href="https://github.com/Rossevv/LIM012-card-validation" class="nav_link" target="blank"> <img
+          src="./assets/git.png" alt="" id="git"> </a>
+      <h4>E-mail</h4>
+      <p>e-wallet@gmail.com</p>
+    </div>
+    <div class="final-title">
       <h2> @ Contenidos Inc. Todos los derechos reservados </h2>
       <h2>Políticas de privacidad</h2>
       <h2>Términos de uso</h2>
       <h2>legal</h2>
-      </div>
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

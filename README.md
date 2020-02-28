@@ -109,7 +109,7 @@ Cabe resaltar que el proyecto final permite al usuario interactuar de la siguien
 
  *2. Crear prototipos para obtener feedback e iterar*
  
-*Flujo de tranbajo no bien definido, no hubo listas de contenidos necesarios a mostrar, por tanto el prototipo falló.
+*Flujo de trabajo no bien definido, no hubo listas de contenidos necesarios a mostrar, por tanto el prototipo falló.
 
 *3. Aplicar los principios de diseño visual*
 
@@ -128,7 +128,7 @@ Cabe resaltar que el proyecto final permite al usuario interactuar de la siguien
 
 *3. Construir tu aplicación respetando el diseño realizado (maquetación).*
 
-*Con u buen flujo definido puedo hacerlo sola.
+*Con un buen flujo definido puedo hacerlo sola.
 
 **DOM**
 -------------
@@ -146,7 +146,7 @@ Creo que que puedo explicarlo.//innerHTML de lo que ya está.
 
 **Javascript**
 --------------
-*1Manipulación de strings*
+*1. Manipulación de strings*
 
 *2. Uso de condicionales*
 
@@ -158,7 +158,7 @@ Puedo explicarlo y entiendo su importancia.
 
 *4. Uso de funciones*
 
-Puedo explicarlo y entiendo su importancia.
+Puedo explicarlo y entiendo su importancia.//index no tienen return, validator js si tiene.
 
 *5. Datos atómicos y estructurados*
 
@@ -182,18 +182,19 @@ Entiendo para que sirve y puedo hacerlo sola, y puedo explicarlo.
 
 *2. Manejo de repositorios de GitHub (clone | fork | gh-pages).*
 
-*Entiendo para que sirve y puedo explciarlo.
+*Entiendo para que sirve y puedo explicarlo. Forma de alojar nuestros proyectos en una página web. Rama que permite reflejar los cambios locales en la web. http repositorio
 
 **Buenas prácticas de desarrollo**
 -----------------
 *1. Organizar y dividir el código en módulos (Modularización).*
 
-Entiendo para que sirve y puedo explciarlo.
+Entiendo para que sirve y puedo explciarlo. Porción de programa
 
 *2. Uso de identificadores descriptivos (Nomenclatura | Semántica).*
 
-Puedo hacerlo sola.
+Puedo hacerlo sola. Const, let, terminos propias de js.
 
-*3. Uso de linter para seguir buenas prácticas (ESLINT).*
+*3. Uso de linter para seguir buenas prácticas (ESLINT).* 
 
+Herramienta que analiza el código, TEST, Eslintrc, reglas definidas por nosotros o pueden ser pre-definidas, es para el código, no tener variables indefinidas/ECMASCRIPT, browser, reglas recomendadas, guías de estilo
 Creo que puedo explicarlo y entender como funciona.
