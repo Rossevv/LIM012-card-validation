@@ -1,13 +1,13 @@
 import validator from './validator.js';
 // console.log('./validator.js');
 /*Declarando variables */
-let inputExpirationDate = document.getElementById('inputExpirationDate');
-let inputCardNumber = document.getElementById('inputCardNumber');
-let finalConditionCardValidOrInvalid = document.getElementById('finalConditionCardValidOrInvalid');
-let cardNumberWithMaskify = document.getElementById('cardNumberWithMaskify');
-let buttonValidateCardNumber = document.getElementById('buttonValidateCardNumber');
-let buttonaAdOthercard = document.getElementById('buttonaAdOthercard');
-let buttonFinalProcess = document.getElementById('buttonFinalProcess');
+const inputExpirationDate = document.getElementById('inputExpirationDate');
+const inputCardNumber = document.getElementById('inputCardNumber');
+const finalConditionCardValidOrInvalid = document.getElementById('finalConditionCardValidOrInvalid');
+const cardNumberWithMaskify = document.getElementById('cardNumberWithMaskify');
+const buttonValidateCardNumber = document.getElementById('buttonValidateCardNumber');
+const buttonaAdOthercard = document.getElementById('buttonaAdOthercard');
+const buttonFinalProcess = document.getElementById('buttonFinalProcess');
 
 /*Input de fecha de exiración de tarjeta */
 inputExpirationDate.addEventListener('keyup', (e) => {
