@@ -1,6 +1,6 @@
 import validator from './validator.js';
-console.log('./validator.js');
-/*Delcarando variables */
+// console.log('./validator.js');
+/*Declarando variables */
 
 let inputExpirationDate = document.getElementById('inputExpirationDate');
 let inputCardNumber = document.getElementById('inputCardNumber');
@@ -10,6 +10,7 @@ let buttonValidateCardNumber = document.getElementById('buttonValidateCardNumber
 let buttonaAdOthercard = document.getElementById('buttonaAdOthercard');
 let inputFinalProcess = document.getElementById('inputFinalProcess');
 
+/*Input de fecha de exiración de tarjeta */
 inputExpirationDate.addEventListener('keyup', (e) => {
   let styleInputExpirationDate = e.target.value;
   inputExpirationDate.value = styleInputExpirationDate
@@ -17,11 +18,13 @@ inputExpirationDate.addEventListener('keyup', (e) => {
     .replace(/\s/g, '/')
 });
 
+/*Input de tarjeta-no debe aceptar letras*/
 inputCardNumber.addEventListener('keyup', (e) => {
   let prueba = e.target.value;
   inputCardNumber.value = prueba.replace(/\D/g, '');
 });
 
+/*Ejecutando los objetos isvalid y maskify */
 buttonValidateCardNumber.addEventListener('click', (event) => {
   event.preventDefault();
   validator.isValid(inputCardNumber.value);
@@ -35,6 +38,8 @@ buttonValidateCardNumber.addEventListener('click', (event) => {
     divValidOrInvalidColor.classList.add('by');
   }
 });
+
+/*Limpiando los campos luego de haber realizado la validación */
 
 const clearFields = () => {
   let inputs = document.getElementsByTagName("input");
@@ -54,4 +59,4 @@ const clearFields = () => {
 buttonaAdOthercard.addEventListener('click', clearFields);
 inputFinalProcess.addEventListener('click', clearFields);
 
-console.log(validator);
+// console.log(validator);
