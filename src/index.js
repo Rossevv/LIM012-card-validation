@@ -10,7 +10,6 @@ let buttonValidateCardNumber = document.getElementById('buttonValidateCardNumber
 let buttonaAdOthercard = document.getElementById('buttonaAdOthercard');
 let inputFinalProcess = document.getElementById('inputFinalProcess');
 
-
 inputExpirationDate.addEventListener('keyup', (e) => {
   let styleInputExpirationDate = e.target.value;
   inputExpirationDate.value = styleInputExpirationDate
@@ -35,21 +34,9 @@ buttonValidateCardNumber.addEventListener('click', (event) => {
   } else {
     divValidOrInvalidColor.classList.add('by');
   }
-
 });
 
-
-
-
-
-
-
-
-
-
-
-
-buttonaAdOthercard.addEventListener('click', () => {
+const clearFields = () => {
   let inputs = document.getElementsByTagName("input");
   //console.log(inputs)
   for (var i = 0; i < inputs.length; i++) {
@@ -63,22 +50,8 @@ buttonaAdOthercard.addEventListener('click', () => {
   } else {
     divValidOrInvalidColor.classList.remove('by');
   }
-})
+}
+buttonaAdOthercard.addEventListener('click', clearFields);
+inputFinalProcess.addEventListener('click', clearFields);
 
-inputFinalProcess.addEventListener('click', () => {
-  let inputs = document.getElementsByTagName("input");
-  //console.log(inputs)
-  for (var i = 0; i < inputs.length; i++) {
-    inputs[i].value = "";
-  }
-  finalConditionCardValidOrInvalid.innerHTML = "";
-  cardNumberWithMaskify.innerHTML = "";
-  let divValidOrInvalidColor = document.querySelector('.divValidOrInvalidColor')
-  if (divValidOrInvalidColor.classList.remove('br')) {
-    /*ACCEDERA LA LISTA DE CLASES DE UN ELEMENTO COMO UNA CADENA DE TEXTO DELIMITADA */
-    divValidOrInvalidColor.classList.remove('br');
-  } else {
-    divValidOrInvalidColor.classList.remove('by');
-  }
-})
 console.log(validator);
