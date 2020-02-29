@@ -23,6 +23,7 @@ const validator = {
     } else {
       return false;
     }
+
   },
 
   maskify: cardNumber => {
