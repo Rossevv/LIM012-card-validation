@@ -25,47 +25,47 @@
     <div class="wave">
       <svg viewbox="0 0 500 150" preserveaspectratio="none" style="height: 100%; width: 100%;">
         <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-          style="stroke: none; fill: rgb(255, 255, 255);">
+          style="stroke: none; fill: rgb(245, 244, 240);">
         </path>
       </svg>
     </div>
   </header>
   <main>
     <h2 class="titulo">REGÍSTRESE PARA REALIZAR SUS PAGOS MÁS FÁCIL</h2>
-    <section class="login1">
+    <section class="section1">
       <div class="div-form">
         <form action="" class="form-login1" id="myForm">
-          <label id="personNameOne" for="personName">Nombre</label>
+          <label for="personName">Nombre</label>
           <input type="text" id="personName" placeholder="Digite su nombre completo" autocomplete="off"><br>
-          <label id="celOne" for="celphone">Número de celular</label>
+          <label for="celphonenumber">Número de celular</label>
           <input type="tel" id="cel" placeholder="*** **** ****"><br>
-          <label id="mailOne" for="mail">e-mail</label>
+          <label for="mail">e-mail</label>
           <input type="email" id="mails" placeholder="e-wallet@gmail.com" autocomplete="off"><br>
-          <label id="cardNumberOne" for="cardNumber">Número de tarjeta</label>
-          <input type="text" id="cardNumber" maxlength="19" placeholder="**** **** **** ****" required><br>
-          <label id="expirationDateOne" for="expirationDate">Fecha de expiración</label>
-          <input type="text" id="expirationDate" placeholder="YY/MM"><br>
-          <div id="csecurityCodeOne"><label for="securityCode"> CVC</label>
+          <label for="inputCardNumber">Número de tarjeta</label>
+          <input type="text" id="inputCardNumber" maxlength="19" placeholder="**** **** **** ****" required><br>
+          <label for="expirationDateCard">Fecha de expiración</label>
+          <input type="text" id="inputExpirationDate" placeholder="YY/MM"><br>
+          <div id="securityCodeCard"><label for="securityCode"> CVC</label>
             <div id="tooltip">?
               <img id="imgCard" src="./assets/cvv_card.png">
             </div>
           </div>
-          <input type="text" id="csecurityCode" placeholder="123" maxlenght="3"><br>
-          <button id="validate" type="submit">VALIDAR</button>
+          <input type="text" placeholder="123" maxlenght="3"><br>
+          <button id="buttonValidateCardNumber" type="submit">VALIDAR</button>
         </form>
       </div>
       <div class="div-result">
         <div class="final-result">
-          <label for="validates" id="cardCondition">Condición de la tarjeta </label><br><br>
-          <div class="numPos" id="conditionNum"> </div><br>
-          <div id="hideNum"> </div><br>
+          <label for="" id="cardCondition">Condición de la tarjeta </label><br><br>
+          <div class="divValidOrInvalidColor" id="finalConditionCardValidOrInvalid"> </div><br>
+          <div id="cardNumberWithMaskify"> </div><br>
           <button id="nextBranch" type="submit">SIGUIENTE</button>
         </div>
       </div>
-      <button class="buttonClearForm" id="addOther" type="submit">AÑADIR OTRA TARJETA</button>
-      <button class="buttonClearForm" id="finalizar" type="submit">FINALIZAR</button>
+      <button class="buttonClearForm" id="buttonaAdOthercard" type="submit">AÑADIR OTRA TARJETA</button>
+      <button class="buttonClearForm" id="inputFinalProcess" type="submit">FINALIZAR</button>
     </section>
-    <section class="login2">
+    <section class="section2">
       <h2 class="titulo">INFORMACIÓN ADICIONAL</h2>
       <div class="images-alone">
         <div class="info-alone">
