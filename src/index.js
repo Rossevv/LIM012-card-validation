@@ -39,7 +39,7 @@ buttonValidateCardNumber.addEventListener('click', (event) => {
   // (divValidOrInvalidColor.classList.add('br'),
   //   finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta inválida'),
 
-  if (validator.isValid(inputCardNumber.value) === true) {
+  if (validator.isValid(inputCardNumber.value)) {
     divValidOrInvalidColor.classList.add('by');
     finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta válida';
   } else {
