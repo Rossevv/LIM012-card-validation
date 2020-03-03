@@ -1,6 +1,7 @@
+// eslint-disable-next-line import/extensions
 import validator from './validator.js';
 // console.log('./validator.js');
-/*Declarando variables */
+/* Declarando variables */
 const inputExpirationDate = document.getElementById('inputExpirationDate');
 const inputCardNumber = document.getElementById('inputCardNumber');
 const finalConditionCardValidOrInvalid = document.getElementById('finalConditionCardValidOrInvalid');
@@ -9,53 +10,60 @@ const buttonValidateCardNumber = document.getElementById('buttonValidateCardNumb
 const buttonaAdOthercard = document.getElementById('buttonaAdOthercard');
 const buttonFinalProcess = document.getElementById('buttonFinalProcess');
 
-/*Input de fecha de exiración de tarjeta */
+/* Input de fecha de exiración de tarjeta */
 inputExpirationDate.addEventListener('keyup', (e) => {
-  let styleInputExpirationDate = e.target.value;
+  const styleInputExpirationDate = e.target.value;
   inputExpirationDate.value = styleInputExpirationDate
     .replace(/([0-9]{3})/g, '$1 ')
-    .replace(/\s/g, '/')
+    .replace(/\s/g, '/');
 });
 
-/*Input de tarjeta-no debe aceptar letras*/
+/* Input de tarjeta-no debe aceptar letras */
 inputCardNumber.addEventListener('keyup', (e) => {
-  let prueba = e.target.value;
+  const prueba = e.target.value;
   inputCardNumber.value = prueba.replace(/\D/g, '');
 });
 
-/*Ejecutando los objetos isvalid y maskify */
+/* Ejecutando los objetos isvalid y maskify */
 buttonValidateCardNumber.addEventListener('click', (event) => {
   event.preventDefault();
   validator.isValid(inputCardNumber.value);
   finalConditionCardValidOrInvalid.innerHTML = validator.isValid(inputCardNumber.value);
   validator.maskify(inputCardNumber.value);
   cardNumberWithMaskify.innerHTML = validator.maskify(inputCardNumber.value);
-  let divValidOrInvalidColor = document.querySelector('.divValidOrInvalidColor')
-  if (validator.isValid(inputCardNumber.value) === false) {
-    divValidOrInvalidColor.classList.add('br');
-    finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta inválida';
-  } else {
+
+  const divValidOrInvalidColor = document.querySelector('.divValidOrInvalidColor');
+  // (validator.isValid(inputCardNumber.value)) ?
+  // (divValidOrInvalidColor.classList.add('by'),
+  //   finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta válida') :
+  // (divValidOrInvalidColor.classList.add('br'),
+  //   finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta inválida'),
+
+  if (validator.isValid(inputCardNumber.value) === true) {
     divValidOrInvalidColor.classList.add('by');
     finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta válida';
+  } else {
+    divValidOrInvalidColor.classList.add('br');
+    finalConditionCardValidOrInvalid.innerHTML = 'Tarjeta inválida';
   }
 });
 
-/*Limpiando los campos luego de haber realizado la validación */
+/* Limpiando los campos luego de haber realizado la validación */
 const clearFields = () => {
-  let inputs = document.getElementsByTagName("input");
-  //console.log(inputs)
-  for (var i = 0; i < inputs.length; i++) {
-    inputs[i].value = "";
+  const inputs = document.getElementsByTagName('input');
+  // console.log(inputs)
+  for (let i = 0; i < inputs.length; i += i) {
+    inputs[i].value = '';
   }
-  finalConditionCardValidOrInvalid.innerHTML = "";
-  cardNumberWithMaskify.innerHTML = "";
-  let divValidOrInvalidColor = document.querySelector('.divValidOrInvalidColor') /*retorna el primer elemento que coincide con el selector css dado como parámetro */
+  finalConditionCardValidOrInvalid.innerHTML = '';
+  cardNumberWithMaskify.innerHTML = '';
+  const divValidOrInvalidColor = document.querySelector('.divValidOrInvalidColor'); /* retorna el primer elemento que coincide con el selector css dado como parámetro */
   if (divValidOrInvalidColor.classList.remove('br')) {
     divValidOrInvalidColor.classList.remove('br');
   } else {
     divValidOrInvalidColor.classList.remove('by');
   }
-}
+};
 buttonaAdOthercard.addEventListener('click', clearFields);
 buttonFinalProcess.addEventListener('click', clearFields);
 
