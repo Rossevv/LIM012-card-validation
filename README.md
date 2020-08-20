@@ -198,3 +198,5 @@ Puedo hacerlo sola. Const, let, terminos propias de js.
 
 Herramienta que analiza el código, TEST, Eslintrc, reglas definidas por nosotros o pueden ser pre-definidas, es para el código, no tener variables indefinidas/ECMASCRIPT, browser, reglas recomendadas, guías de estilo
 Creo que puedo explicarlo y entender como funciona.
+
+Primero proyecto terminado.
